@@ -450,7 +450,7 @@ button.dim {
   color: #cacaca;
 }
 
-.form-control,.form-control:focus,.has-error .form-control:focus,.has-success .form-control:focus,.has-warning .form-control:focus,.navbar-collapse,.navbar-form,.navbar-form-custom .form-control:focus,.navbar-form-custom .form-control:hover {
+.form-control,.form-control:focus,.has-error .form-control:focus,.has-success .form-control:focus,.has-warning .form-control:focus,.navbar-collapse,.navbar-form,.navbar-form-custom .form-control:focus,.navbar-form-custom .form-control:hover,.panel {
   box-shadow: none;
 }
 
@@ -1152,6 +1152,11 @@ a:focus,a:hover {
   font-size: 12px;
 }
 
+.panel.blank-panel {
+  background: 0 0;
+  margin: 0;
+}
+
 .no-top-border {
   border-top: 0!important;
 }
@@ -1197,6 +1202,10 @@ a:focus,a:hover {
 img.circle-border {
   border: 6px solid #FFF;
   border-radius: 50%;
+}
+
+.login-panel {
+  margin-top: 25%;
 }
 
 .icons-box h3 {
@@ -1286,6 +1295,26 @@ code {
 .navy-bg {
   background-color: #3385FF;
   color: #fff;
+}
+
+.panel-primary {
+  border-color: #3385FF;
+}
+
+.panel-success {
+  border-color: #1c84c6;
+}
+
+.panel-info {
+  border-color: #23c6c8;
+}
+
+.panel-warning {
+  border-color: #f8ac59;
+}
+
+.panel-title {
+  font-size: inherit;
 }
 
 .text-navy {
